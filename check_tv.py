@@ -870,7 +870,7 @@ def fetch_access_token():
         token = token_response.json()
         return token["access_token"]
 
-######################check_tv##################
+######################check_tv###################
 if __name__ == "__main__":
     logging.basicConfig(filename="tv.log", level=logging.INFO, format='%(asctime)s %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
     logging.getLogger().addHandler(logging.StreamHandler())
